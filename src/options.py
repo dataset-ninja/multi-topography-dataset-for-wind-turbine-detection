@@ -5,7 +5,7 @@
 # * Preview class to visualize in SUMMARY.md overview section
 # * Literal["ClassesPreview", "HorizontalGrid", "SideAnnotationsGrid"]
 # * If None, then preview_class will be set automatically to "ClassesPreview"
-PREVIEW_CLASS = "HorizontalGrid"
+PREVIEW_CLASS = "Poster"
 
 IS_DETECTION_TASK: bool = True  # ? Set True if you want to visualize only bbox annotations
 
@@ -48,7 +48,12 @@ PREVIEWS_IS_DETECTION_TASK: bool = IS_DETECTION_TASK
 ###############################################################
 ### * Set up visualization params for ClassesPreview class ####
 CLASSES_PREVIEW_ROW_HEIGHT: int = None
-CLASSES_PREVIEW_PADDINGS: dict = {"top": "100px", "bottom": "100px", "left": "100px", "right": "100px"}
+CLASSES_PREVIEW_PADDINGS: dict = {
+    "top": "100px",
+    "bottom": "100px",
+    "left": "100px",
+    "right": "100px",
+}
 CLASSES_PREVIEW_ROWS: int = None
 CLASSES_PREVIEW_GAP: int = 10
 # default {"top": "10%", "bottom": "10%", "left": "10%", "right": "10%"}
@@ -64,14 +69,16 @@ HEATMAP_ROWS: int = None
 HEATMAP_COLS: int = None
 HEATMAP_GRID_SPACING: int = None
 HEATMAP_OUTER_GRID_SPACING: int = None
-HEATMAP_OUTPUT_WIDTH: int = None # 1 class in dataset? -> 1600px for portrait images, 2200px for landscape
+HEATMAP_OUTPUT_WIDTH: int = (
+    None  # 1 class in dataset? -> 1600px for portrait images, 2200px for landscape
+)
 ###############################################################
-
 
 
 ##################################
 ###### ? Do not edit bellow #####
 ##################################
+
 
 def get_visualization_options():
     vis_settings = {
@@ -93,7 +100,7 @@ def get_visualization_options():
             "rows": SIDE_ANNOTATIONS_GRID_ROWS,
             "cols": SIDE_ANNOTATIONS_GRID_COLS,
             "is_detection_task": SIDE_ANNOTATIONS_GRID_IS_DETECTION_TASK,
-        }
+        },
     }
 
     checked_vis_settings = {}
