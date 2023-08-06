@@ -59,8 +59,8 @@ PAPER: Optional[str] = None
 CITATION_URL: Optional[str] = "https://zenodo.org/record/7808269/export/hx"
 AUTHORS: Optional[List[str]] = ["Hao Mi"]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
-ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Shandong University of Science and Technology"
+ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://en.sdust.edu.cn/"
 
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = {
     "locations": [
