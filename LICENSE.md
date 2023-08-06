@@ -1,1 +1,1 @@
-Multi-topography dataset for wind turbine detection from remote sensing image is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
+Multi-topography Dataset for Wind Turbine Detection from Remote Sensing Image is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.

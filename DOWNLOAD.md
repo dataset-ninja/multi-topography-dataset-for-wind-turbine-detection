@@ -1,6 +1,6 @@
-Dataset **Multi-topography dataset for wind turbine detection** can be downloaded in Supervisely format:
+Dataset **Multi-topography Dataset for Wind Turbine Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/Y/9/xT/aeGBfL7UQGsZnkIKA5Mqk4OEozkDZSidv2yAsWf4OS8BlEa7bj4lIXRJREaeEds9nrd4sQc4raD0GYbXY7aLMrqdrqUJohfkg7XtC03Tmu8A9YqR4RNHh9GLr73q.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/i/X/6A/CvZn04EXJuM6ldnPwL8xqqqBeMTsyZbq67DuzKbkl2NTB3XUk8UM3ifIels9WcZcY5oXPRynoUUwfw6BY6tZ9KJhxLNcoSbUPRwW9LuArJyXoG5jf5MsdRaN09JJ.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -11,6 +11,8 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='Multi-topography dataset for wind turbine detection', dst_path='~/dtools/datasets/Multi-topography dataset for wind turbine detection.tar')
+dtools.download(dataset='Multi-topography Dataset for Wind Turbine Detection', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://zenodo.org/record/7808269/files/windTurbineDataSet.zip?download=1)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://zenodo.org/record/7808269/files/windTurbineDataSet.zip?download=1)
