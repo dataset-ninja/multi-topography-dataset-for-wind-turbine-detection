@@ -13,9 +13,9 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Multi-topography dataset for wind turbine detection"
+PROJECT_NAME: str = "Multi-topography Dataset for Wind Turbine Detection"
 PROJECT_NAME_FULL: str = (
-    "Multi-topography dataset for wind turbine detection from remote sensing image"
+    "Multi-topography Dataset for Wind Turbine Detection from Remote Sensing Image"
 )
 
 ##################################
