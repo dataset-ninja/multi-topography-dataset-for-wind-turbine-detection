@@ -62,7 +62,23 @@ AUTHORS: Optional[List[str]] = ["Hao Mi"]
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
 
-SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
+SLYTAGSPLIT: Optional[Dict[str, List[str]]] = {
+    "locations": [
+        "Baicheng",
+        "Baqi",
+        "Chifeng",
+        "Hami",
+        "Huiteng",
+        "Jiamusi",
+        "Mudanjiang",
+        "Tieling",
+        "Tongliao",
+        "Wulanchabu",
+        "Ürümqi",
+        "Ximeng",
+        "Yilan",
+    ]
+}
 TAGS: List[str] = None
 
 ##################################
