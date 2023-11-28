@@ -1,6 +1,6 @@
 Dataset **Multi-topography Dataset for Wind Turbine Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/7/Y/qp/ggZVjGL88t7orsQe6g5NB3H6fL51qacxHctZUFStjHoFeh9IZZYfQcW1xbbC74tmyyIrYHe2obnW2GDfcMZL3WLy7YO59Pop6To9k9d9kMwkEd5uWIMMmSFxLDxA.tar)
+ [Download](https://www.dropbox.com/scl/fi/013xs6cgkolodqy9yb177/multi-topography-dataset-for-wind-turbine-detection-DatasetNinja.tar?rlkey=vxxif006ty4mp1kcle41skkhw&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
